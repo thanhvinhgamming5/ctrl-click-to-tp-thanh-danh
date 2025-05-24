@@ -21,3 +21,8 @@ UIS.InputBegan:Connect(function(input)
        Teleport(Mouse.Hit.p)
    end
 end)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "CTRL CLICK TO TP";
+	Text = "BY THANH DANH";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 5;
